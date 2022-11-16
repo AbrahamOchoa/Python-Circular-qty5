@@ -1,0 +1,39 @@
+/*Estilos de css para en cuadrado que realizamos en qtDesinger*/
+QPushButton:hover
+{
+	border-style: solid;
+    background-color: #bbdefb;
+}
+QPushButton:-moz-suppressed
+{
+	background-color: #0069c0;
+}
+
+/*Otro estilo */
+QPushButton
+{
+    height: 2em;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0069c0;
+    font-weight: bold;
+}
+QPushButton:hover
+{
+    background-color: #0069c0;
+    color: white;
+}
+/*Para button de cancelar */
+QPushButton
+{
+    height: 2em;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    font-weight: bold;
+}
+QPushButton:hover
+{
+    background-color: grey;
+    color: white;
+}
